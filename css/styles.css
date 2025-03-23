@@ -498,6 +498,9 @@ a {
 .extra-small{
     font-size: 0.77rem !important ;
 }
+.bg-light{
+    background-color: #eff3f7 !important;
+}
 
 /* 
 .slick-list, .slick-slider {
