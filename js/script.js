@@ -15,3 +15,6 @@ function scrollCards(direction) {
   // Scroll to the current card
   cardRow.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
 }
+
+
+
