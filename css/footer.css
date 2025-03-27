@@ -1,0 +1,42 @@
+
+
+.footer {
+    background-color: transparent;
+}
+
+.footer .container {
+    padding: 1rem;
+}
+
+.footer .border-top {
+    border-top: 1px solid var(--geeks-border-color);
+}
+
+.footer .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer .text-center {
+    text-align: center;
+}
+
+.footer .text-md-start {
+    text-align: left;
+}
+
+.footer .nav-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer .nav-link {
+    color: var(--geeks-body-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .nav-link:hover {
+    color: var(--geeks-primary);
+}

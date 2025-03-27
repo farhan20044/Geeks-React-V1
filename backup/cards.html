@@ -1,0 +1,449 @@
+<section class="position-relative ">
+    <div>
+        <!-- Previous Button -->
+        <button
+            class="btn btn-light position-absolute start-0 top-50 translate-middle-y p-3 rounded-circle shadow-sm d-flex align-items-center justify-content-center d-none d-lg-flex"
+            style="z-index: 1; margin-left: 30px; width: 43px; height: 43px;" onclick="scrollCards(-1)">
+            <i class="bi bi-chevron-left"></i>
+        </button>
+        <!-- Next Button -->
+        <button
+            class="btn btn-light position-absolute end-0 top-50 translate-middle-y p-3 rounded-circle shadow-sm d-flex align-items-center justify-content-center d-none d-lg-flex"
+            style="z-index: 1; margin-right: 30px; width: 43px; height: 43px;" onclick="scrollCards(1)">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+
+        <!-- Cards -->
+        <div class="container cardscont bg-gray position-relative  ">
+            <h3 class=" mb-4 margin-top-5 fw-semibold mx-2" style="font-size: 1.5rem;">Recommended to you</h3>
+            <div class="position-relative overflow-hidden">
+                <div class="row flex-nowrap" id="cardRow" style="transition: transform 0.5s ease;">
+                    <!-- cards -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm hover-shadow border-0">
+                            <img src="../images/graphqi.jpg" class="card-img-top" alt="GraphQL Logo" />
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-semi-bold medium-text"
+                                    style="line-height: 1.5rem; width: 16.3rem;">
+                                    GraphQL:introduction to GraphQL for Beginners
+                                </h5>
+                                <p class="card-text text-muted">
+                                    <i class="bi bi-clock"></i> 2h 40m &nbsp;
+                                    <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                        </rect>
+                                    </svg>Advance
+                                </p>
+                                <div class="d-flex align-items-center ">
+                                    <span class="text-warning me-1 mb-1"><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg></span>
+                                    <span class="text-warning">2.5 &nbsp;</span>
+                                    <span class="text-muted extra-small">(1,500)</span>
+                                </div>
+                                <div class="mt-2">
+                                    <span class=" fw-bold small-text">$500</span>
+                                    <del class=" extra-small text-muted">$696</del>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent" style="min-height: 60px; padding: 1rem;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Instructor"
+                                            class="rounded-circle me-2" style="width: 25px; height: 25px" />
+                                        <span>Jane Doe</span>
+                                    </div>
+                                    <a href="" title="Add to Bookmark">
+                                        <img src="../images/bookmark_purple.svg" alt="" height="14" width="14"
+                                            class="me-2"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm hover-shadow border-0">
+                            <img src="../images/javascript.jpg" class="card-img-top" alt="JavaScript Logo" />
+                            <div class="card-body p-4 ">
+                                <h5 class="card-title fw-semibold medium-text" style=" line-height: 1.5rem; width:
+                                    16.3rem;">
+                                    A Complete Beginner’s Guide to JavaScript
+                                </h5>
+                                <p class="card-text text-muted">
+                                    <i class="bi bi-clock"></i> 4h 10m &nbsp;
+                                    <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                        </rect>
+                                    </svg>Advance
+                                </p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="text-warning me-1 mb-1"><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg></span>
+                                    <span class="text-warning">4.0&nbsp;</span>
+                                    <span class="text-muted extra-small">(2,000)</span>
+                                </div>
+                                <div class="">
+                                    <span class="fw-bold small-text">$700</span>
+                                    <del class="extra-small text-muted">$650</del>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent" style="min-height: 60px; padding: 1rem;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Instructor"
+                                            class="rounded-circle me-2" style="width: 25px; height: 25px" />
+                                        <span class="text-muted">Jane Doe</span>
+                                    </div>
+                                    <a href="">
+                                        <img src="../images/bookmark_purple.svg" alt="" class="me-2" height="14"
+                                            width="14"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm hover-shadow border-0">
+                            <img src="../images/node.jpg" class="card-img-top" alt="Node.js Logo" />
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-semibold medium-text"
+                                    style="line-height: 1.5rem; width: 16.3rem;">
+                                    Beginning Node.js, Express & MongoDB Development
+                                </h5>
+                                <p class="card-text text-muted">
+                                    <i class="bi bi-clock"></i> 2h 00m &nbsp;
+                                    <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                        </rect>
+                                    </svg>Intermediate
+                                </p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="text-warning me-1 mb-1"><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg></span>
+                                    <span class="text-warning">4.2&nbsp;</span>
+                                    <span class="text-muted extra-small">(1,800)</span>
+                                </div>
+                                <div class="">
+                                    <span class=" fw-bold small-text">$800</span>
+                                    <del class=" text-muted extra-small">$959</del>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent" style="min-height: 60px; padding: 1rem;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Instructor"
+                                            class="rounded-circle me-2" style="width: 25px; height: 25px" />
+                                        <span class="text-muted">Jane Doe</span>
+                                    </div>
+                                    <a href="">
+                                        <img src="../images/bookmark_purple.svg" alt="" class="me-2" height="14"
+                                            width="14"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm hover-shadow border-0">
+                            <img src="../images/laravel.jpg" class="card-img-top" alt="Laravel Logo" />
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-semibold medium-text"
+                                    style="line-height: 1.5rem; width: 16.3rem;">
+                                    Laravel: The Ultimate Beginner’s Guide to Learn
+                                </h5>
+                                <p class="card-text">
+                                    <i class="bi bi-clock"></i> 1h 00m &nbsp;
+                                    <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                        </rect>
+                                    </svg>Beginner
+                                </p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="text-warning me-1 mb-1"><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg></span>
+                                    <span class="text-warning">4.1&nbsp;</span>
+                                    <span class="text-muted extra-small"> (1,700)</span>
+                                </div>
+                                <div class="">
+                                    <span class=" fw-bold small-text">$170</span>
+                                    <del class=" text-muted extra-small">$220</del>
+                                </div>
+
+
+                            </div>
+                            <div class="card-footer bg-transparent" style="min-height: 60px; padding: 1rem;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Instructor"
+                                            class="rounded-circle me-2" style="width: 25px; height: 25px" />
+                                        <span class="text-muted">Jane Doe</span>
+                                    </div>
+                                    <a href="">
+                                        <img src="../images/bookmark_purple.svg" alt="" class="me-2" height="14"
+                                            width="14"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- react -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm hover-shadow border-0">
+                            <img src="../images/laravel.jpg" class="card-img-top" alt="Laravel Logo" />
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-semibold medium-text"
+                                    style="line-height: 1.5rem; width: 16.3rem;">
+                                    Laravel: The Ultimate Beginner’s Guide to Learn
+                                </h5>
+                                <p class="card-text">
+                                    <i class="fas fa-clock"></i> 1h 00m &nbsp;
+                                    <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                        </rect>
+                                    </svg>Beginner
+                                </p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="text-warning me-1 mb-1"><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg></span>
+                                    <span class="text-warning">4.1&nbsp;</span>
+                                    <span class="text-muted extra-small">(1,700)</span>
+                                </div>
+                                <div class="mb-2">
+                                    <span class="fw-bold small-text">$170</span>
+                                    <del class="text-muted extra-small">$220</del>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent" style="min-height: 60px; padding: 1rem;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Instructor"
+                                            class="rounded-circle me-2" style="width: 25px; height: 25px" />
+                                        <span class="text-muted">Jane Doe</span>
+                                    </div>
+                                    <a href="">
+                                        <img src="../images/bookmark_purple.svg" alt="" class="me-2" height="14"
+                                            width="14"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- angular -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card h-100 shadow-sm hover-shadow border-0">
+                            <img src="../images/node.jpg" class="card-img-top" alt="Node.js Logo" />
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-semibold medium-text"
+                                    style="line-height: 1.5rem; width: 16.3rem;">
+                                    Beginning Node.js, Express & MongoDB Development
+                                </h5>
+                                <p class="card-text text-muted">
+                                    <i class="bi bi-clock"></i> 2h 00m &nbsp;
+                                    <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                        <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                        <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                        </rect>
+                                    </svg>Intermediate
+                                </p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="text-warning me-1 mb-1"><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg><svg viewBox="0 0 24 24" role="presentation"
+                                            style="width: 0.92rem; height: 0.92rem;">
+                                            <path
+                                                d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                                style="fill: currentcolor;"></path>
+                                        </svg></span>
+                                    <span class="text-warning">4.2&nbsp;</span>
+                                    <span class="text-muted extra-small">(1,800)</span>
+                                </div>
+                                <div class="">
+                                    <span class=" fw-bold small-text">$800</span>
+                                    <del class=" text-muted extra-small">$959</del>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent" style="min-height: 60px; padding: 1rem;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Instructor"
+                                            class="rounded-circle me-2" style="width: 25px; height: 25px" />
+                                        <span class="text-muted">Jane Doe</span>
+                                    </div>
+                                    <a href="">
+                                        <img src="../images/bookmark_purple.svg" alt="" class="me-2" height="14"
+                                            width="14"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buttons for Small Screens -->
+    <div class="d-flex justify-content-center gap-3 my-3 d-lg-none">
+        <button
+            class="btn btn-light p-3 rounded-circle shadow-sm d-flex align-items-center justify-content-center arrow"
+            style="width: 40px; height: 45px;" onclick="scrollCards(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button
+            class="btn btn-light p-3 rounded-circle shadow-sm d-flex align-items-center justify-content-center arrow"
+            style="width: 40px; height: 45px;" onclick="scrollCards(1)">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</section>
