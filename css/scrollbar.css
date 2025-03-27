@@ -1,0 +1,22 @@
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 6.2px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+    background: #dcdcdc; /* Light gray */
+    border-radius: 10px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: rgb(231, 230, 230); /* Purple color */
+    border-radius: 10px;
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f1f1f1; /* Darker purple */
+}
