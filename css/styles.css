@@ -14,12 +14,16 @@ body {
     }
 }
 
+
 .bi-camera-video{
     z-index: 1;
 }
 .accordion-button::after {
-    display: none !important; /* Removes the arrow */
+    width: 12px!important; /* Adjust width */
+    height: 12px!important; /* Adjust height */
+    background-size: 12px !important; /* Adjust arrow size */
 }
+
 .accordion-button::after {
     content: "\f078"; /* FontAwesome down arrow */
     font-family: "Font Awesome 5 Free";
@@ -134,22 +138,22 @@ form input{
 .cardcont{
     padding-top: 4rem;
 }
-
+.text-wrap {
+    white-space: normal !important;
+}
 
 .fw-semi-bold{
     font-weight: 600;
     font-size: 17px;
 }
 .text-muted {
-    color: #a0a0a0 !important; /* Duller gray */
-    opacity: 0.9 !important;  /* Reduce visibility */
-    font-size: 0.870rem !important; /* Adjust font size */
+    color: #a0a0a0 !important; 
+    opacity: 0.9 !important;  
+    font-size: 0.870rem !important; 
 }
 .small-font{
-    font-size: 10px;
-
+    font-size: 0.69rem!important;
 }
-
 .bookmark{
     color: black;
     font-size: 0.49rem;
@@ -159,13 +163,11 @@ form input{
     transition: all ease 0.2s;
 }
 
-
 .color-grey{
 
     opacity: 1;
     color: #ffffff80 ;
 }
-
 
 .dark{
     background: rgb(0, 0, 0);
@@ -254,7 +256,7 @@ a {
     width: 5rem;
 }
 .extra-small{
-    font-size: 0.77rem !important ;
+    font-size: 0.75rem !important ;
 }
 .bg-light{
     background-color: #eff3f7 !important;
