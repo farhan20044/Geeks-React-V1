@@ -8,20 +8,37 @@ body {
     font-size: 0.88rem; 
     color: rgb(161, 160, 160);
 }
-@media (max-width: 991px) { /* Bootstrap's breakpoint for navbar collapse */
-    .nav-item .nav-link {
-        padding-right: 10px !important;
-    }
+.indicator:before {
+    border: 2px solid #fff;
+    border: 2px solid #724ffe;
+    border-radius: 50%;
+    content: "";
+    height: .75rem;
+    position: absolute;
+    right: .8rem;
+    top: 0;
+    width: .75rem;
 }
-
-
+.indicator-primary.indicator:before {
+    background-color: #754ffe;
+    background-color: var(--geeks-primary);
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card-title {
+    white-space: normal;  
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    max-width: 100%;
+}  
 .bi-camera-video{
     z-index: 1;
 }
 .accordion-button::after {
-    width: 12px!important; /* Adjust width */
-    height: 12px!important; /* Adjust height */
-    background-size: 12px !important; /* Adjust arrow size */
+    width: 12px!important; 
+    height: 12px!important; 
+    background-size: 12px !important; 
 }
 
 .accordion-button::after {
@@ -140,6 +157,11 @@ form input{
 }
 .text-wrap {
     white-space: normal !important;
+
+}
+.dropdown-text {
+    color: #64748b;
+    padding: .25rem 1.2rem;
 }
 
 .fw-semi-bold{
