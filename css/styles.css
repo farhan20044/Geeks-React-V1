@@ -184,6 +184,10 @@ form input{
     color: #724ffe;
     transition: all ease 0.2s;
 }
+.icon-shape svg {
+    color: black!important; /* Sets the color of the SVG */
+}
+
 
 .color-grey{
 
@@ -264,8 +268,9 @@ a {
     background-color: #724ffe !important;
 }
 
-.text-primary{
-    color: #724ffe !important;
+.text-primary {
+    --bs-text-opacity: 1;
+     color: #724ffe !important; 
 }
 
 .icon-sm {
@@ -283,3 +288,46 @@ a {
 .bg-light{
     background-color: #eff3f7 !important;
 }
+
+.tab-content>.active {
+    display: block;
+}
+.nav-tabs {
+    border-bottom: none;
+  }
+  .nav-tabs .nav-link {
+    border: none;
+    background: transparent;
+  }
+  .nav-tabs .nav-link.active {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  .nav-tabs {
+    border-bottom: none;
+  }
+
+  /* Remove borders and background from each tab */
+  .nav-tabs .nav-link {
+    border: none !important;
+    background-color: transparent !important;
+    color: #64748b;
+    padding: 16px 0;
+    font-size: 14px;
+  }
+
+  /* No hover effect */
+  .nav-tabs .nav-link:hover {
+    border: none;
+    background-color: transparent;
+    color: #64748b;
+  }
+
+  /* Active tab styling */
+  .nav-tabs .nav-link.active {
+    color: #1e293b;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+  }

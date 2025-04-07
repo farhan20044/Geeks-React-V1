@@ -7,6 +7,10 @@
     line-height: 1.5;
     vertical-align: middle
 }
+.btn-xs {
+    font-size: .75rem!important;
+    padding: .22rem .75rem!important;
+}
 .btn-dark{
     background-color: #0F172A !important;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
