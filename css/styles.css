@@ -255,6 +255,14 @@ form input{
     text-align: center;
     vertical-align: middle;
 }
+.btn-play {
+    background-color: #fff;
+    background-color:
+    white;
+    color: #754ffe;
+    color: #754ffe;
+    transition: .2s ease;
+}
 .h2, h2 {
     font-size: 1.5rem !important;
 }
