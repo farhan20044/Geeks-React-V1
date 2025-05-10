@@ -8,18 +8,39 @@ body {
     font-size: 0.88rem; 
     color: rgb(161, 160, 160);
 }
-@media (max-width: 991px) { /* Bootstrap's breakpoint for navbar collapse */
-    .nav-item .nav-link {
-        padding-right: 10px !important;
-    }
+.indicator:before {
+    border: 2px solid #fff;
+    border: 2px solid #724ffe;
+    border-radius: 50%;
+    content: "";
+    height: .75rem;
+    position: absolute;
+    right: .8rem;
+    top: 0;
+    width: .75rem;
 }
-
+.indicator-primary.indicator:before {
+    background-color: #754ffe;
+    background-color: var(--geeks-primary);
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card-title {
+    white-space: normal;  
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    max-width: 100%;
+}  
 .bi-camera-video{
     z-index: 1;
 }
 .accordion-button::after {
-    display: none !important; /* Removes the arrow */
+    width: 12px!important; 
+    height: 12px!important; 
+    background-size: 12px !important; 
 }
+
 .accordion-button::after {
     content: "\f078"; /* FontAwesome down arrow */
     font-family: "Font Awesome 5 Free";
@@ -134,22 +155,27 @@ form input{
 .cardcont{
     padding-top: 4rem;
 }
+.text-wrap {
+    white-space: normal !important;
 
+}
+.dropdown-text {
+    color: #64748b;
+    padding: .25rem 1.2rem;
+}
 
 .fw-semi-bold{
     font-weight: 600;
     font-size: 17px;
 }
 .text-muted {
-    color: #a0a0a0 !important; /* Duller gray */
-    opacity: 0.9 !important;  /* Reduce visibility */
-    font-size: 0.870rem !important; /* Adjust font size */
+    color: #a0a0a0 !important; 
+    opacity: 0.9 !important;  
+    font-size: 0.870rem !important; 
 }
 .small-font{
-    font-size: 10px;
-
+    font-size: 0.69rem!important;
 }
-
 .bookmark{
     color: black;
     font-size: 0.49rem;
@@ -158,6 +184,9 @@ form input{
     color: #724ffe;
     transition: all ease 0.2s;
 }
+.icon-shape svg {
+    color: black!important; /* Sets the color of the SVG */
+}
 
 
 .color-grey{
@@ -165,7 +194,6 @@ form input{
     opacity: 1;
     color: #ffffff80 ;
 }
-
 
 .dark{
     background: rgb(0, 0, 0);
@@ -227,6 +255,14 @@ form input{
     text-align: center;
     vertical-align: middle;
 }
+.btn-play {
+    background-color: #fff;
+    background-color:
+    white;
+    color: #754ffe;
+    color: #754ffe;
+    transition: .2s ease;
+}
 .h2, h2 {
     font-size: 1.5rem !important;
 }
@@ -240,8 +276,9 @@ a {
     background-color: #724ffe !important;
 }
 
-.text-primary{
-    color: #724ffe !important;
+.text-primary {
+    --bs-text-opacity: 1;
+     color: #724ffe !important; 
 }
 
 .icon-sm {
@@ -254,8 +291,51 @@ a {
     width: 5rem;
 }
 .extra-small{
-    font-size: 0.77rem !important ;
+    font-size: 0.75rem !important ;
 }
 .bg-light{
     background-color: #eff3f7 !important;
 }
+
+.tab-content>.active {
+    display: block;
+}
+.nav-tabs {
+    border-bottom: none;
+  }
+  .nav-tabs .nav-link {
+    border: none;
+    background: transparent;
+  }
+  .nav-tabs .nav-link.active {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  .nav-tabs {
+    border-bottom: none;
+  }
+
+  /* Remove borders and background from each tab */
+  .nav-tabs .nav-link {
+    border: none !important;
+    background-color: transparent !important;
+    color: #64748b;
+    padding: 16px 0;
+    font-size: 14px;
+  }
+
+  /* No hover effect */
+  .nav-tabs .nav-link:hover {
+    border: none;
+    background-color: transparent;
+    color: #64748b;
+  }
+
+  /* Active tab styling */
+  .nav-tabs .nav-link.active {
+    color: #1e293b;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+  }
